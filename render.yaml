@@ -2,6 +2,3 @@ services:
   - type: web
     name: webdis
     env: docker
-    
-databases:
-  - name: elephant
