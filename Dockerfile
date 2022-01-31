@@ -6,7 +6,7 @@ RUN git clone https://github.com/ashty-drone/nekopack.git /root/userbot
 WORKDIR /root/userbot
 
 # Install requirements
-RUN pip3 install -U -r requirements.txt
+RUN pip3 install -r requirements.txt
 
 ENV PATH="/home/userbot/bin:$PATH"
 
