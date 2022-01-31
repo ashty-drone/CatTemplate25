@@ -1,7 +1,7 @@
 services:
-    type: worker
+  - type: worker
     name: queue
     env: docker
     
 databases:
-    name: elephant
+  - name: elephant
