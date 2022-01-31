@@ -1,6 +1,6 @@
 services:
-  - type: worker
-    name: queue
+  - type: web
+    name: webdis
     env: docker
     
 databases:
