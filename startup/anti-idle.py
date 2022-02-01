@@ -1,8 +1,9 @@
 import asyncio
+from logging import getLogger
 
 async def continuous_print():
     while True:
-        print('I am Alive!!')
+        getLogger("AliveCheck").info('I am Alive!!')
         await asyncio.sleep(300)
     return False
 
