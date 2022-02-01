@@ -1,5 +1,8 @@
 FROM sandy1709/catuserbot:slim-buster
 
+# Installing some packages not available in the image
+RUN apt-get install ping
+
 # Cloning-Repo
 RUN git clone https://github.com/ashty-drone/nekopack.git /root/userbot
 
