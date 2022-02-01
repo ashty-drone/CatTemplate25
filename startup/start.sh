@@ -1,3 +1,3 @@
 cd startup
-python3 anti-idle.py
+python3 anti-idle.py &
 bash bot_up
