@@ -1,8 +1,5 @@
-from asyncio import sleep
+from time import sleep
 
-async def continuous_print():
-    while True:
-        print('I am Alive!!')
-        sleep(300)
-    return False
-continuous_print()
+while True:
+    print('I am Alive!!')
+    sleep(300)
