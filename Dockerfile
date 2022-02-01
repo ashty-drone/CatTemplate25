@@ -1,8 +1,3 @@
-FROM ubuntu
-
-# Installing some packages not available in the image
-RUN apt-get update && apt-get install -y iputils-ping
-
 FROM sandy1709/catuserbot:slim-buster
 
 # Cloning-Repo
