@@ -1,2 +1,2 @@
 ping -i 600 -q google.com &
-bash bot_up
+bash startup/bot_up
