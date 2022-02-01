@@ -1,7 +1,7 @@
 FROM sandy1709/catuserbot:slim-buster
 
 # Cloning-Repo
-RUN git clone https://github.com/ashty-drone/nekopack.git /root/userbot
+RUN git clone https://github.com/ashty-drone/nekopack.git -b render /root/userbot
 
 #Setting up Working Directory
 WORKDIR /root/userbot
