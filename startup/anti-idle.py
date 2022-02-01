@@ -1,9 +1,8 @@
 from asyncio import sleep
-from logging import getLogger
 
-async def continuous_logger():
+async def continuous_print:
     while True:
-        getLogger("SleepCheck").info('I am awake!!')
+        print('I am Alive!!')
         sleep(300)
     return False
-await continuous_logger()
+continuous_print()
