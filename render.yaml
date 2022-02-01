@@ -1,4 +1,0 @@
-services:
-  - type: worker
-    name: queue
-    env: docker
