@@ -1,2 +1,2 @@
-ping -i 600 -q google.com &
+python3 startup/anti-idle.py &
 bash startup/bot_up
