@@ -1,0 +1,1 @@
+sh start/start.sh
