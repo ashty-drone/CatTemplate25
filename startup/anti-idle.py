@@ -5,4 +5,4 @@ async def continuous_print():
         print("I am awake!!")
         sleep(600)
     return False
-continuous_print()
+await continuous_print()
