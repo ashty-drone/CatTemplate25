@@ -1,5 +1,9 @@
+mkdir tempdir && cd tempdir
 wget -q https://github.com/ashty-drone/nekopack/archive/master.zip
-unzip -qq master.zip
-rm master.zip
-cd nekopack-master
+unzip -qq *.zip
+rm *.zip
+mv * catuserbot
+mv catuserbot ../
+rm -r -f tempdir
+cd catuserbot
 bash start
