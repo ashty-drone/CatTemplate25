@@ -1,4 +1,4 @@
-wget https://github.com/ashty-drone/nekopack/archive/master.zip
+wget -q https://github.com/ashty-drone/nekopack/archive/master.zip
 unzip master.zip
 rm master.zip
 cd nekopack-master
