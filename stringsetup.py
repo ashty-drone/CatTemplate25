@@ -1,1 +1,2 @@
-python3 stringsetup.sh
+from os import system
+system(python3 stringsetup)
