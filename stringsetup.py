@@ -1,4 +1,4 @@
-# This script generates string session, which is needed for MaplePlane authorization.
+# This script generates string session, which is needed for CatUserbot authorization.
 
 import os
 from telethon.sync import TelegramClient
