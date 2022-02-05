@@ -77,7 +77,7 @@ API_ID is api_id and API_HASH is api_hash. Write them down below when prompted.
                           )
         got_info = True if str(valid_info).upper() in Positive_Response else False
     
-    if got_info is False:
+    if got_info is not False:
         API_ID = input("Please enter your API_ID: ")
         API_HASH = input("Please enter your API_HASH")
 
