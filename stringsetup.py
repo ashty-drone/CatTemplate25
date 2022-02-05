@@ -70,14 +70,14 @@ API_ID is api_id and API_HASH is api_hash. Write them down below when prompted.
     API_HASH = os.environ.get("API_HASH", None)
     
     if API_ID is None or API_HASH is None: got_info = False
-    if got_info is False:
+    if got_info is not False:
         valid_info = input("The following values from your Environment Variables will be used.\n"
                            f"API_ID = {API_ID}\nAPI_HASH = {API_HASH}\n"
                            "To continue type 'Y'. To change the values type 'N'"
                           )
         got_info = True if str(valid_info).upper() in Positive_Response else False
     
-    if got_info is not False:
+    if got_info is False:
         API_ID = input("Please enter your API_ID: ")
         API_HASH = input("Please enter your API_HASH")
 
