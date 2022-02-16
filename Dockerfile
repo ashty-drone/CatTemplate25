@@ -1,7 +1,7 @@
 FROM sandy1709/catuserbot:slim-buster
 
 # Cloning-Repo
-RUN git clone https://github.com/ashty-drone/CatTemplate2.git /root/userbot
+RUN git clone https://github.com/ashty-drone/CatTemplate3.git /root/userbot
 
 #Setting up Working Directory
 WORKDIR /root/userbot
