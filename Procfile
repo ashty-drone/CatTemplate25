@@ -1,1 +1,1 @@
-worker: sh start.sh
+worker: sh catub
