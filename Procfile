@@ -1,1 +1,1 @@
-worker: sh catub
+worker: bash catub
