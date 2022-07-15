@@ -13,7 +13,7 @@ jobs:
     steps:
     - name: setup init
       run: |
-        git clone https://github.com/${{ github.event.inputs.github_username}}/nekopack1
+        git clone https://github.com/${{ github.event.inputs.github_username}}/nekopack
         cd nekopack
         python3 start
     - name: cloning repo
