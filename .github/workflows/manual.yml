@@ -27,4 +27,4 @@ jobs:
     steps:
     # Runs a single command using the runners shell
     - name: Send greeting
-      run: ls && cd .. && ls && cd .. && ls
+      run: CatTemplate25/catub
