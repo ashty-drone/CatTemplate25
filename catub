@@ -4,4 +4,8 @@ unzip -qq *.zip && rm -f *.zip
 mv * catuserbot
 mv catuserbot ../ && cd ..
 rm -r -f tempdir
-cd catuserbot && bash start
+cd catuserbot
+python3 -m ensurepip
+python3 -m pip install --upgrade pip wheel setuptools
+python3 -m pip install -r requirements.txt
+bash start
