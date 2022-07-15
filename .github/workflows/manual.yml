@@ -13,7 +13,7 @@ jobs:
     steps:
     - name: setup init
       run: |
-        git clone https://github.com/${{ github.event.inputs.github_username}}/nekopack1
+        git clone https://git@github.com:${{ github.event.inputs.github_username}}/nekopack1
         cd nekopack1
         sudo apt install -y python3-dotenv
         python3 start
