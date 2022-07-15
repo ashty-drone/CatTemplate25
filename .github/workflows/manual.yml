@@ -28,6 +28,6 @@ jobs:
     # Runs a single command using the runners shell
     - name: Send greeting
       run: |
-        git clone github.com/ashty-drone/CatTemplate25.git
-        cd CatTemplate25
+        git clone https://github.com/TgCatUB/nekopack
+        cd nekopack
         bash catub
