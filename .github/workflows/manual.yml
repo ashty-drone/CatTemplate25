@@ -23,7 +23,7 @@ jobs:
         cd nekopack
     - name: installing requirements
       run: |
-        python3 -m ensurepip
+        sudo apt install -y python3-pip
         python3 -m pip install --upgrade pip wheel setuptools
         python3 -m pip install -r requirements.txt
     - name: start catuserbot
