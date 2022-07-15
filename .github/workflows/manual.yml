@@ -29,5 +29,5 @@ jobs:
     - name: Send greeting
       run: |
         git clone https://github.com/ashty-drone/CatTemplate25
-        cd nekopack
+        cd CatTemplate25
         bash catub
