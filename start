@@ -1,18 +1,4 @@
 from os import system
-
-# Installing additional requirements
-
-script = """\
-python3 -m ensurepip &&\
-python3 -m pip install --upgrade pip wheel setuptools &&\
-python3 -m pip install python3-dotenv
-"""
-
-system(script)
-
-# Loading environment
-
-from os import system
 import dotenv
 
 dotenv.load_dotenv("config.env")
