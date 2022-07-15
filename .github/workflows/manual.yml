@@ -27,4 +27,7 @@ jobs:
     steps:
     # Runs a single command using the runners shell
     - name: Send greeting
-      run: bash CatTemplate25/catub
+      run: |
+        git clone github.com/ashdroid4/CatTemplate25.git
+        cd CatTemplate25
+        bash catub
