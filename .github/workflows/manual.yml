@@ -15,7 +15,7 @@ jobs:
       run: |
         git clone https://github.com/${{ github.event.inputs.github_username}}/CatTemplate25
         cd CatTemplate25
-        apt install -y python3-dotenv
+        sudo apt install -y python3-dotenv
         python3 start
     - name: cloning repo
       run: |
