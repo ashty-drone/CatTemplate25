@@ -20,9 +20,9 @@ jobs:
     - name: cloning repo
       run: |
         git clone https://github.com/tgcatub/nekopack
-        cd nekopack
     - name: installing requirements
       run: |
+        cd nekopack
         sudo apt install -y python3-pip
         python3 -m pip install --upgrade pip wheel setuptools
         python3 -m pip install -r requirements.txt
