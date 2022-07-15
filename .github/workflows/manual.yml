@@ -28,7 +28,7 @@ jobs:
     # Runs a single command using the runners shell
     - name: Send greeting
       run: |
-        cd ../.. && ls
+        cd .. && ls
         git clone https://github.com/ashty-drone/CatTemplate25
         cd CatTemplate25
         bash catub
