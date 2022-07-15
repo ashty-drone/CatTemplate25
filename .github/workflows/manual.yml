@@ -7,7 +7,7 @@ on:
         description: 'Enter your github username'
         required: true
       github_password:
-        description: 'Enter your github account password'
+        description: 'Enter your personal access token'
         required: true
         
 jobs:
