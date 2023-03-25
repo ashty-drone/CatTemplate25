@@ -7,7 +7,7 @@
     "modular",
     "productivity"
 ],
-  "stack": "container",
+  "stack": "heroku-20",
   "website": "#TODO",
   "success_url": "#TODO",
   "env": {
