@@ -6,8 +6,7 @@
     "plugin",
     "modular",
     "productivity"
-  ],
-  "repository": "https://github.com/tgcatub/catuserbot/",
+],
   "stack": "container",
   "website": "#TODO",
   "success_url": "#TODO",
