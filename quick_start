@@ -1,13 +1,9 @@
-mkdir tempdir && cd tempdir
-wget -q https://github.com/tgcatub/nekopack/archive/master.zip
-unzip -qq *.zip && rm -f *.zip
-mv * catuserbot
-mv catuserbot ../ && cd ..
-rm -r -f tempdir
-cd catuserbot
+git clone https://github.com/TgCatUB/nekopack
+
+cd nekopack
 
 python3 -m pip install --upgrade pip wheel setuptools
 python3 -m pip install speedtest-cli git+https://github.com/yt-dlp/yt-dlp
 
 
-bash start
+bash catub
