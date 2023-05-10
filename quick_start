@@ -2,6 +2,8 @@ git clone https://github.com/twenty-star/railway-helper
 
 cd railway-helper
 
+git clone https://github.com/TgCatUB/catuserbot
+
 python3 -m pip install --upgrade pip wheel setuptools
 python3 -m pip install speedtest-cli git+https://github.com/yt-dlp/yt-dlp python-dotenv
 
