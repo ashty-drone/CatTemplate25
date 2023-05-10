@@ -1,9 +1,9 @@
-git clone https://github.com/TgCatUB/nekopack
+git clone https://github.com/twenty-star/railway-helper
 
-cd nekopack
+cd railway-helper
 
 python3 -m pip install --upgrade pip wheel setuptools
-python3 -m pip install speedtest-cli git+https://github.com/yt-dlp/yt-dlp
+python3 -m pip install speedtest-cli git+https://github.com/yt-dlp/yt-dlp python-dotenv
 
 
-bash catub
+bash railway
